@@ -1,0 +1,9 @@
+[project]
+name = "paperscope"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=1.2.0",
+    "python-dotenv>=1.2.2",
+    "truststore>=0.10.4",
+]
