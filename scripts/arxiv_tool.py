@@ -1,8 +1,3 @@
-"""
-A small end-to-end agent: Llama 3.3 (Groq) calls a `search_arxiv` tool, reads
-the results, and composes a final answer. ~100 lines, no agent framework.
-"""
-
 # truststore must be injected before any HTTPS-using import (groq, arxiv, ...)
 import truststore
 truststore.inject_into_ssl()
