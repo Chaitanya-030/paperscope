@@ -4,7 +4,10 @@ version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
     "arxiv>=3.0.0",
-    "groq>=1.2.0",
+    "groq>=0.30.0,<1.0",
+    "langchain>=1.2.15",
+    "langchain-groq>=1.1.2",
+    "langgraph>=1.1.9",
     "python-dotenv>=1.2.2",
     "qdrant-client>=1.17.1",
     "sentence-transformers>=5.4.1",
